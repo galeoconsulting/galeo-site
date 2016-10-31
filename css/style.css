@@ -133,6 +133,7 @@ ul.line li{background: #FFF; width: 8px; height: 8px; -webkit-border-radius: 4px
 #choice .apply a.poga{-webkit-transition: all .3s ease; -moz-transition: all .3s ease; -ms-transition: all .3s ease; -o-transition: all .3s ease; transition: all .3s ease;}
 
 #explore {z-index:10;position: relative;}
+#aps {position: absolute; width: 100%;}
 #explore .inner1 {height: 275px; width: 100%; margin-top: -88px; background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNzUgMjc1Ij48Y2lyY2xlIGN4PSIxMzcuNSIgY3k9IjEzNy41IiByPSIxMzcuNSIgc3R5bGU9ImZpbGw6I2ZmZiIvPjwvc3ZnPg=="); background-repeat: no-repeat; background-position: top center; z-index: 10; position: relative;}
 #explore .inner11 {min-height: 100px; width: 100%; top:88px; position: relative; background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAoHBwkHBgoJCAkLCwoMDxkQDw4ODx4WFxIZJCAmJSMgIyIoLTkwKCo2KyIjMkQyNjs9QEBAJjBGS0U+Sjk/QD3/2wBDAQsLCw8NDx0QEB09KSMpPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT3/wgARCABuAAgDAREAAhEBAxEB/8QAFwABAAMAAAAAAAAAAAAAAAAAAAECB//EABQBAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhADEAAAANlJAAAAABQ//8QAGBAAAgMAAAAAAAAAAAAAAAAAAAEREzD/2gAIAQEAAT8Aha2I/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAgEBPwBv/8QAFBEBAAAAAAAAAAAAAAAAAAAAMP/aAAgBAwEBPwBv/9k='); background-repeat: repeat-x;}
 
@@ -146,7 +147,7 @@ ul.line li{background: #FFF; width: 8px; height: 8px; -webkit-border-radius: 4px
 #explore .center {float: left; width: 100px; font-size: 14px; font-weight: bold; }
 #explore .center a {color: #000;}
 #explore .center a:hover {text-decoration: none; color:#FA731C;}
-#explore .center svg{width: 78px; display: block; margin: 5px auto 5px;}
+#explore .center svg{width: 78px; display: block; height: 96px; margin: 5px auto 5px;}
 #explore .wrapper1 {width: 660px;margin: 0 auto;}
 #explore .inner2 {min-height: 146px; width: 100%; background: rgb(0,0,0); background: rgba(0,0,0,.75); margin-top: -88px;}
 #explore .inner2 svg {height: 52px;}
@@ -157,7 +158,7 @@ ul.line li{background: #FFF; width: 8px; height: 8px; -webkit-border-radius: 4px
 #explore .inner2 .inner.left{float: left;}
 #explore .inner2 .inner.right{float: right;}
 
-#top-map {background-color: #e5e3df; height: 600px; position: relative; overflow: hidden; }
+#top-map {background-color: #e5e3df; height: 600px; width: 100%; padding-top: 100px; position: relative; overflow: hidden; }
 
 footer {background: #4C4949; color:#fd6202;}
 footer svg {width: 36px;}
